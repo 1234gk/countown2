@@ -1,0 +1,67 @@
+body {
+    width: 100vw;
+    height: 100vw;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    background-image: url(birthday.jpg);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+@media(min-width:100px) {
+    body {
+        align-items: center;
+    }
+}
+
+@media(min-width:565px) {
+    body {
+        align-items: center;
+    }
+}
+
+@media(min-width:765px) {
+    body {
+        align-items: center;
+    }
+}
+
+.counter {
+    align-items: center;
+    display: flex;
+    font-family: 'Stylish', sans-serif;
+    text-align: center;
+}
+
+.box {
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+p {
+    font-size: 15px;
+}
+
+.happybirthday {
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box small {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
